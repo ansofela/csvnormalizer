@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/csvnormalizer.rb"
+require_relative '../lib/csvnormalizer.rb'
 Csvnormalizer::CLI.start(ARGV)
