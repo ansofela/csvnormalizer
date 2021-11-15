@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "csvnormalizer"
+Csvnormalizer::CLI.start(ARGV)
