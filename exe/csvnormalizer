@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-File.expand_path("../../csvnormalizer.rb",File.dirname(__FILE__))
-require "csvnormalizer"
+
+require_relative '../lib/csvnormalizer.rb"
 Csvnormalizer::CLI.start(ARGV)
