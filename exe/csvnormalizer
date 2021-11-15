@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
-
+binpath = File.dirname(__FILE__)
+$:.unshift File.expand_path(File.join(binpath, ".."))
 require "csvnormalizer"
 Csvnormalizer::CLI.start(ARGV)
