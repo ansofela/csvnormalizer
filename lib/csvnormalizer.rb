@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "csvnormalizer/version"
+require_relative "./csvnormalizer/version"
 require 'thor'
 require 'csv'
 require 'date'
