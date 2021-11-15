@@ -6,7 +6,13 @@ Please write a tool that reads a CSV formatted file on stdin and emits a normali
 
 ./normalizer < sample.csv > output.csv
 
+## Installation
+Download or clone this repository
+Open 'Terminal'
+cd to folder location
+rake install
 ## Usage
 
+cd exe
 ./csvnormalizer normalize [Input CSV] [Output CSV]
 
