@@ -14,5 +14,6 @@ rake install
 ## Usage
 
 cd exe
+
 ./csvnormalizer normalize [Input CSV] [Output CSV]
 
