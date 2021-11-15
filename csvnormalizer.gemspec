@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "thor", "~> 1.1.0"
   spec.add_dependency "rake", "~> 13.0"
   spec.add_dependency "csv", "~>3.2.1"
-  spec.add_dependency "date", "~>3.2.0"
+  #spec.add_dependency "date", "~>3.2.0"
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
